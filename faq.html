@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="warper">
+        <div class="nav">
+            <div class="nav-title">
+                <h1>Travel Baba</h1>
+            </div>
+
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="scrollLink">Home</a></li>
+                    <li><a href="#about" class="scrollLink">About</a></li>
+                    <li><a href="#service" class="scrollLink">Service</a></li>
+                    <li><a href="#gallery" class="scrollLink">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider-image">
+            <img src="images/nature4.webp">
+            <!-- <h2 class="img-title"> We are here for you!</h2> -->
+        </div>
+        <div class="faq-section" style="margin-bottom:20px;">
+            <div class="section-heading">Ask Me Anything</div>
+            <button class="accordion">#Question1</button>
+            <div class="panel">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.
+                </p>
+            </div>
+            <button class="accordion">#Question2</button>
+            <div class="panel">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.
+                </p>
+
+            </div>
+            <button class="accordion">#Question3</button>
+            <div class="panel">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.
+                </p>
+
+            </div>
+            <button class="accordion">#Question4</button>
+            <div class="panel">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.
+                </p>
+
+            </div>
+            <button class="accordion">#Question5</button>
+            <div class="panel">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum.
+                </p>
+
+            </div>
+        </div>
+        <div class="footer">
+            © 2019 All Rights Reserved
+        </div>
+    </div>
+    <script type="text/javascript">
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                }
+                else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+
+        }
+
+    </script>
+</body>
+
+</html>

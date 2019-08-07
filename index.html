@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="warper">
+        <div class="nav">
+            <div class="nav-title">
+                <h1>Travel Baba</h1>
+            </div>
+
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#intro" class="scrollLink">Home</a></li>
+                    <li><a href="#about" class="scrollLink">About</a></li>
+                    <li><a href="#service" class="scrollLink">Service</a></li>
+                    <li><a href="#gallery" class="scrollLink">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider-image">
+            <img src="images/nature4.webp">
+            <!-- <h2 class="img-title"> We are here for you!</h2> -->
+        </div>
+        <div class="about" id="about">
+            <div class="section-heading">Our Moto</div>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
+                search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+            </p>
+        </div>
+        <div class="services" id="service">
+            <div class="section-heading">Benefits</div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 2</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 3</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 4</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 5</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="service">
+                <img src="images/6.png">
+                <h2>Service Name 6</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+        </div>
+        <div class="gallery-section" id="gallery">
+            <div class="section-heading"> Best Tourist Place </div>
+            <div class="flex-container-gallery">
+                <div class="container">
+                    <img src="images/gallery1.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/gallery2.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/gallery3.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/gallery5.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/gallery3.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/gallery1.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            © 2019 All Rights Reserved
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a.scrollLink").click(function (event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
